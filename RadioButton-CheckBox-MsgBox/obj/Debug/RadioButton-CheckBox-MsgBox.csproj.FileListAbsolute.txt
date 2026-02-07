@@ -1,0 +1,10 @@
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\bin\Debug\RadioButton-CheckBox-MsgBox.exe.config
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\bin\Debug\RadioButton-CheckBox-MsgBox.exe
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\bin\Debug\RadioButton-CheckBox-MsgBox.pdb
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.AssemblyReference.cache
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton_CheckBox_MsgBox.Form1.resources
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton_CheckBox_MsgBox.Properties.Resources.resources
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.GenerateResource.cache
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.CoreCompileInputs.cache
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.exe
+C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.pdb
