@@ -34,30 +34,30 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtCont = new System.Windows.Forms.TextBox();
             this.gbCourse = new System.Windows.Forms.GroupBox();
-            this.gbGender = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rbBSIT = new System.Windows.Forms.RadioButton();
             this.rbBSIS = new System.Windows.Forms.RadioButton();
+            this.gbGender = new System.Windows.Forms.GroupBox();
             this.rdOthers = new System.Windows.Forms.RadioButton();
-            this.tdMale = new System.Windows.Forms.RadioButton();
             this.rdFemale = new System.Windows.Forms.RadioButton();
+            this.tdMale = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cbBask = new System.Windows.Forms.CheckBox();
             this.cbRunning = new System.Windows.Forms.CheckBox();
             this.cbSwimming = new System.Windows.Forms.CheckBox();
-            this.cbBask = new System.Windows.Forms.CheckBox();
             this.lblCont = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.gbRep = new System.Windows.Forms.GroupBox();
-            this.txtNameRep = new System.Windows.Forms.TextBox();
-            this.lblNameRep = new System.Windows.Forms.Label();
-            this.lblContRep = new System.Windows.Forms.Label();
+            this.txtGenRep = new System.Windows.Forms.TextBox();
+            this.txtCourseRep = new System.Windows.Forms.TextBox();
+            this.rtbHob = new System.Windows.Forms.RichTextBox();
+            this.lblHobRep = new System.Windows.Forms.Label();
+            this.lblGenderRep = new System.Windows.Forms.Label();
             this.txtContRep = new System.Windows.Forms.TextBox();
             this.lblCourseRep = new System.Windows.Forms.Label();
-            this.lblGenderRep = new System.Windows.Forms.Label();
-            this.lblHobRep = new System.Windows.Forms.Label();
-            this.rtbHob = new System.Windows.Forms.RichTextBox();
-            this.txtCourseRep = new System.Windows.Forms.TextBox();
-            this.txtGenRep = new System.Windows.Forms.TextBox();
+            this.lblContRep = new System.Windows.Forms.Label();
+            this.lblNameRep = new System.Windows.Forms.Label();
+            this.txtNameRep = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnGenRep = new System.Windows.Forms.Button();
             this.btnClearRep = new System.Windows.Forms.Button();
@@ -70,7 +70,7 @@
             // btnGen
             // 
             this.btnGen.Location = new System.Drawing.Point(279, 511);
-            this.btnGen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGen.Margin = new System.Windows.Forms.Padding(2);
             this.btnGen.Name = "btnGen";
             this.btnGen.Size = new System.Drawing.Size(125, 23);
             this.btnGen.TabIndex = 0;
@@ -121,30 +121,6 @@
             this.gbCourse.TabStop = false;
             this.gbCourse.Text = "COURSE";
             // 
-            // gbGender
-            // 
-            this.gbGender.Controls.Add(this.rdOthers);
-            this.gbGender.Controls.Add(this.rdFemale);
-            this.gbGender.Controls.Add(this.tdMale);
-            this.gbGender.Location = new System.Drawing.Point(186, 267);
-            this.gbGender.Name = "gbGender";
-            this.gbGender.Size = new System.Drawing.Size(338, 100);
-            this.gbGender.TabIndex = 7;
-            this.gbGender.TabStop = false;
-            this.gbGender.Text = "GENDER";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.cbBask);
-            this.groupBox3.Controls.Add(this.cbRunning);
-            this.groupBox3.Controls.Add(this.cbSwimming);
-            this.groupBox3.Location = new System.Drawing.Point(186, 391);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(309, 105);
-            this.groupBox3.TabIndex = 8;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "HOBBIES";
-            // 
             // rbBSIT
             // 
             this.rbBSIT.AutoSize = true;
@@ -169,6 +145,18 @@
             this.rbBSIS.UseVisualStyleBackColor = true;
             this.rbBSIS.CheckedChanged += new System.EventHandler(this.rbBSIS_CheckedChanged);
             // 
+            // gbGender
+            // 
+            this.gbGender.Controls.Add(this.rdOthers);
+            this.gbGender.Controls.Add(this.rdFemale);
+            this.gbGender.Controls.Add(this.tdMale);
+            this.gbGender.Location = new System.Drawing.Point(186, 267);
+            this.gbGender.Name = "gbGender";
+            this.gbGender.Size = new System.Drawing.Size(338, 100);
+            this.gbGender.TabIndex = 7;
+            this.gbGender.TabStop = false;
+            this.gbGender.Text = "GENDER";
+            // 
             // rdOthers
             // 
             this.rdOthers.AutoSize = true;
@@ -180,6 +168,17 @@
             this.rdOthers.Text = "OTHERS";
             this.rdOthers.UseVisualStyleBackColor = true;
             this.rdOthers.CheckedChanged += new System.EventHandler(this.rdOthers_CheckedChanged);
+            // 
+            // rdFemale
+            // 
+            this.rdFemale.AutoSize = true;
+            this.rdFemale.Location = new System.Drawing.Point(125, 50);
+            this.rdFemale.Name = "rdFemale";
+            this.rdFemale.Size = new System.Drawing.Size(67, 17);
+            this.rdFemale.TabIndex = 13;
+            this.rdFemale.TabStop = true;
+            this.rdFemale.Text = "FEMALE";
+            this.rdFemale.UseVisualStyleBackColor = true;
             // 
             // tdMale
             // 
@@ -194,16 +193,28 @@
             this.tdMale.UseVisualStyleBackColor = true;
             this.tdMale.CheckedChanged += new System.EventHandler(this.tdMale_CheckedChanged);
             // 
-            // rdFemale
+            // groupBox3
             // 
-            this.rdFemale.AutoSize = true;
-            this.rdFemale.Location = new System.Drawing.Point(125, 50);
-            this.rdFemale.Name = "rdFemale";
-            this.rdFemale.Size = new System.Drawing.Size(67, 17);
-            this.rdFemale.TabIndex = 13;
-            this.rdFemale.TabStop = true;
-            this.rdFemale.Text = "FEMALE";
-            this.rdFemale.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.cbBask);
+            this.groupBox3.Controls.Add(this.cbRunning);
+            this.groupBox3.Controls.Add(this.cbSwimming);
+            this.groupBox3.Location = new System.Drawing.Point(186, 391);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(309, 105);
+            this.groupBox3.TabIndex = 8;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "HOBBIES";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // cbBask
+            // 
+            this.cbBask.AutoSize = true;
+            this.cbBask.Location = new System.Drawing.Point(209, 50);
+            this.cbBask.Name = "cbBask";
+            this.cbBask.Size = new System.Drawing.Size(94, 17);
+            this.cbBask.TabIndex = 11;
+            this.cbBask.Text = "BASKETBALL";
+            this.cbBask.UseVisualStyleBackColor = true;
             // 
             // cbRunning
             // 
@@ -224,16 +235,6 @@
             this.cbSwimming.TabIndex = 10;
             this.cbSwimming.Text = "SWIMMING";
             this.cbSwimming.UseVisualStyleBackColor = true;
-            // 
-            // cbBask
-            // 
-            this.cbBask.AutoSize = true;
-            this.cbBask.Location = new System.Drawing.Point(209, 50);
-            this.cbBask.Name = "cbBask";
-            this.cbBask.Size = new System.Drawing.Size(94, 17);
-            this.cbBask.TabIndex = 11;
-            this.cbBask.Text = "BASKETBALL";
-            this.cbBask.UseVisualStyleBackColor = true;
             // 
             // lblCont
             // 
@@ -272,31 +273,48 @@
             this.gbRep.TabStop = false;
             this.gbRep.Text = "REPORT";
             // 
-            // txtNameRep
+            // txtGenRep
             // 
-            this.txtNameRep.Location = new System.Drawing.Point(125, 65);
-            this.txtNameRep.Name = "txtNameRep";
-            this.txtNameRep.Size = new System.Drawing.Size(200, 20);
-            this.txtNameRep.TabIndex = 12;
-            this.txtNameRep.TextChanged += new System.EventHandler(this.txtNameRep_TextChanged);
+            this.txtGenRep.Location = new System.Drawing.Point(125, 158);
+            this.txtGenRep.Name = "txtGenRep";
+            this.txtGenRep.Size = new System.Drawing.Size(200, 20);
+            this.txtGenRep.TabIndex = 17;
+            this.txtGenRep.TextChanged += new System.EventHandler(this.txtGenRep_TextChanged);
             // 
-            // lblNameRep
+            // txtCourseRep
             // 
-            this.lblNameRep.AutoSize = true;
-            this.lblNameRep.Location = new System.Drawing.Point(40, 72);
-            this.lblNameRep.Name = "lblNameRep";
-            this.lblNameRep.Size = new System.Drawing.Size(38, 13);
-            this.lblNameRep.TabIndex = 12;
-            this.lblNameRep.Text = "Name:";
+            this.txtCourseRep.Location = new System.Drawing.Point(125, 127);
+            this.txtCourseRep.Name = "txtCourseRep";
+            this.txtCourseRep.Size = new System.Drawing.Size(200, 20);
+            this.txtCourseRep.TabIndex = 16;
+            this.txtCourseRep.TextChanged += new System.EventHandler(this.txtCourseRep_TextChanged);
             // 
-            // lblContRep
+            // rtbHob
             // 
-            this.lblContRep.AutoSize = true;
-            this.lblContRep.Location = new System.Drawing.Point(40, 105);
-            this.lblContRep.Name = "lblContRep";
-            this.lblContRep.Size = new System.Drawing.Size(44, 13);
-            this.lblContRep.TabIndex = 12;
-            this.lblContRep.Text = "Contact";
+            this.rtbHob.Location = new System.Drawing.Point(125, 217);
+            this.rtbHob.Name = "rtbHob";
+            this.rtbHob.Size = new System.Drawing.Size(166, 113);
+            this.rtbHob.TabIndex = 15;
+            this.rtbHob.Text = "";
+            this.rtbHob.TextChanged += new System.EventHandler(this.rtbHob_TextChanged);
+            // 
+            // lblHobRep
+            // 
+            this.lblHobRep.AutoSize = true;
+            this.lblHobRep.Location = new System.Drawing.Point(40, 217);
+            this.lblHobRep.Name = "lblHobRep";
+            this.lblHobRep.Size = new System.Drawing.Size(46, 13);
+            this.lblHobRep.TabIndex = 14;
+            this.lblHobRep.Text = "Hobbies";
+            // 
+            // lblGenderRep
+            // 
+            this.lblGenderRep.AutoSize = true;
+            this.lblGenderRep.Location = new System.Drawing.Point(40, 165);
+            this.lblGenderRep.Name = "lblGenderRep";
+            this.lblGenderRep.Size = new System.Drawing.Size(42, 13);
+            this.lblGenderRep.TabIndex = 13;
+            this.lblGenderRep.Text = "Gender";
             // 
             // txtContRep
             // 
@@ -314,47 +332,31 @@
             this.lblCourseRep.TabIndex = 12;
             this.lblCourseRep.Text = "Course";
             // 
-            // lblGenderRep
+            // lblContRep
             // 
-            this.lblGenderRep.AutoSize = true;
-            this.lblGenderRep.Location = new System.Drawing.Point(40, 165);
-            this.lblGenderRep.Name = "lblGenderRep";
-            this.lblGenderRep.Size = new System.Drawing.Size(42, 13);
-            this.lblGenderRep.TabIndex = 13;
-            this.lblGenderRep.Text = "Gender";
+            this.lblContRep.AutoSize = true;
+            this.lblContRep.Location = new System.Drawing.Point(40, 105);
+            this.lblContRep.Name = "lblContRep";
+            this.lblContRep.Size = new System.Drawing.Size(44, 13);
+            this.lblContRep.TabIndex = 12;
+            this.lblContRep.Text = "Contact";
             // 
-            // lblHobRep
+            // lblNameRep
             // 
-            this.lblHobRep.AutoSize = true;
-            this.lblHobRep.Location = new System.Drawing.Point(40, 217);
-            this.lblHobRep.Name = "lblHobRep";
-            this.lblHobRep.Size = new System.Drawing.Size(46, 13);
-            this.lblHobRep.TabIndex = 14;
-            this.lblHobRep.Text = "Hobbies";
+            this.lblNameRep.AutoSize = true;
+            this.lblNameRep.Location = new System.Drawing.Point(40, 72);
+            this.lblNameRep.Name = "lblNameRep";
+            this.lblNameRep.Size = new System.Drawing.Size(38, 13);
+            this.lblNameRep.TabIndex = 12;
+            this.lblNameRep.Text = "Name:";
             // 
-            // rtbHob
+            // txtNameRep
             // 
-            this.rtbHob.Location = new System.Drawing.Point(125, 217);
-            this.rtbHob.Name = "rtbHob";
-            this.rtbHob.Size = new System.Drawing.Size(166, 113);
-            this.rtbHob.TabIndex = 15;
-            this.rtbHob.Text = "";
-            // 
-            // txtCourseRep
-            // 
-            this.txtCourseRep.Location = new System.Drawing.Point(125, 127);
-            this.txtCourseRep.Name = "txtCourseRep";
-            this.txtCourseRep.Size = new System.Drawing.Size(200, 20);
-            this.txtCourseRep.TabIndex = 16;
-            this.txtCourseRep.TextChanged += new System.EventHandler(this.txtCourseRep_TextChanged);
-            // 
-            // txtGenRep
-            // 
-            this.txtGenRep.Location = new System.Drawing.Point(125, 158);
-            this.txtGenRep.Name = "txtGenRep";
-            this.txtGenRep.Size = new System.Drawing.Size(200, 20);
-            this.txtGenRep.TabIndex = 17;
-            this.txtGenRep.TextChanged += new System.EventHandler(this.txtGenRep_TextChanged);
+            this.txtNameRep.Location = new System.Drawing.Point(125, 65);
+            this.txtNameRep.Name = "txtNameRep";
+            this.txtNameRep.Size = new System.Drawing.Size(200, 20);
+            this.txtNameRep.TabIndex = 12;
+            this.txtNameRep.TextChanged += new System.EventHandler(this.txtNameRep_TextChanged);
             // 
             // btnClear
             // 
@@ -406,7 +408,7 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnGen);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.gbCourse.ResumeLayout(false);

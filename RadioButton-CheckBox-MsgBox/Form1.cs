@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace RadioButton_CheckBox_MsgBox
 {
@@ -61,7 +62,23 @@ namespace RadioButton_CheckBox_MsgBox
             {
                 txtGenRep.Text = rdFemale.Text;
             }
-        }   
+
+            string hobbies = "";
+            foreach (Control ctrl in groupBox3.Controls)
+            {
+                if (ctrl is System.Windows.Forms.CheckBox)
+                {
+                    System.Windows.Forms.CheckBox cb = (System.Windows.Forms.CheckBox) ctrl;
+
+                    if (cb.Checked)
+                    {
+                        rtbHob.Text =  hobbies += cb.Text + ", ";
+
+                    }
+                }
+            }
+
+        }
 
         private void txtNameRep_TextChanged(object sender, EventArgs e)
         {
@@ -94,6 +111,16 @@ namespace RadioButton_CheckBox_MsgBox
         }
 
         private void tdMale_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rtbHob_TextChanged(object sender, EventArgs e)
         {
 
         }
