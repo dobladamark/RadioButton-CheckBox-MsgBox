@@ -8,3 +8,13 @@ C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\o
 C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.CoreCompileInputs.cache
 C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.exe
 C:\Users\Nyabi\Desktop\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.pdb
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\bin\Debug\RadioButton-CheckBox-MsgBox.exe.config
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\bin\Debug\RadioButton-CheckBox-MsgBox.exe
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\bin\Debug\RadioButton-CheckBox-MsgBox.pdb
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.AssemblyReference.cache
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton_CheckBox_MsgBox.Form1.resources
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton_CheckBox_MsgBox.Properties.Resources.resources
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.GenerateResource.cache
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.csproj.CoreCompileInputs.cache
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.exe
+C:\My Files\Programming\CSharp\School Projects\RadioButton-CheckBox-MsgBox\RadioButton-CheckBox-MsgBox\obj\Debug\RadioButton-CheckBox-MsgBox.pdb
